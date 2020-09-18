@@ -43,6 +43,7 @@ const typing = () => {
   const result__wrong = document.getElementById('wrong');
   const result__sec = document.getElementById('second');
   const ranking__html = document.getElementsByClassName('ranking')[0];
+  const comment = document.getElementsByClassName('comment')[0];
   const miss = $('.miss');
   let sec = 0;
   let current = 0;
@@ -153,6 +154,7 @@ const typing = () => {
         window.alert('time up!');
         typegame.classList.add('hide');
         result.classList.remove('hide');
+        comment.classList.add('hide');
         ranking__html.classList.remove('hide');
         result__score.innerHTML = 'スコア ' + score;
         result__true.innerHTML = '正タイプ ' + typec;
