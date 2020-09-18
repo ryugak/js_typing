@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>javascript タイピングゲーム</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="l-main">
+    <div class="p-start" id="easy">
+      <p>かんたん</p>
+    </div>
+    <div class="p-start" id="normal">
+      <p>ふつう</p>
+    </div>
+    <div class="p-start" id="hard">
+      <p>むずかしい</p>
+    </div>
+    <div class="type">
+      <p class="text" id="count"></p>
+      <p class="text" id="text"></p>
+    </div>
+    <div class="result hide">
+      <p class="result__text">スコアリザルト</p>
+      <ul class="result__list">
+        <li id="score"></li>
+        <li id="true"></li>
+        <li id="wrong"></li>
+        <li id="second"></li>
+      </ul>
+    </div>
+    <div class="miss">
+      <p>❌ミス❌</p>
+    </div>
+    <div class="ranking">
+      <a href="link/index.html">ランキングはこちら!</a>
+    </div>
+    <div class="comment">
+      <p>※単語の間にスペース入ります。</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
